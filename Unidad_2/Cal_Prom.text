@@ -1,0 +1,27 @@
+Inicio
+   Escribir "Ingrese el nombre completo del estudiante:"
+   Leer nombre
+
+   Escribir "Ingrese la calificación 1:"
+   Leer cal1
+   Escribir "Ingrese la calificación 2:"
+   Leer cal2
+   Escribir "Ingrese la calificación 3:"
+   Leer cal3
+   Escribir "Ingrese la calificación 4:"
+   Leer cal4
+   Escribir "Ingrese la calificación 5:"
+   Leer cal5
+
+   promedio = (cal1 + cal2 + cal3 + cal4 + cal5) / 5
+
+   Si promedio >= 70 Entonces
+       resultado = "Aprobó"
+   Sino
+       resultado = "Reprobó"
+   FinSi
+
+   Escribir "Estudiante:", nombre
+   Escribir "Promedio final:", promedio
+   Escribir "Resultado:", resultado
+Fin
